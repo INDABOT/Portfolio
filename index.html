@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/6ca0005b6d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Service</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-circle-xmark" onclick="closeMenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Font-end Developer</p>
+          <h1>
+            Hi, I'm <span>Okanu</span> <br />
+            Chinonso From Nigeria
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!--------------------about-------------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col1">
+            <img class="nonso" src="images/IMG_5543.jpeg" />
+          </div>
+          <div class="about-col2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Greetings! I'm Okanu Chinonso, a dedicated frontend developer with
+              a passion for transforming creative visions into interactive,
+              user-centric web experiences. With a keen eye for design and a
+              knack for clean, efficient code, I thrive on the challenge of
+              building seamless interfaces that captivate and engage users.
+              <br />
+              👨‍💻 Expertise: Frontend Wizardry: I specialize in turning ideas
+              into reality through innovative frontend development. My skill set
+              includes HTML, CSS, and JavaScript, along with expertise in
+              popular frameworks like React and Vue.js. Responsive Design:
+              Crafting visually appealing and responsive web applications is my
+              forte. I ensure that every project I undertake delivers a flawless
+              user experience across various devices and screen sizes.
+              User-Centric Approach: I believe in the power of user-centric
+              design. By blending aesthetics with functionality, I create
+              interfaces that not only look great but also provide a seamless
+              and intuitive journey for users. <br />
+              🛠️ Tech Stack: Languages: HTML5, CSS3, JavaScript (ES6+)
+              Frameworks: React.js, Vue.js Tools: Git, Webpack, npm/yarn Let's
+              collaborate to bring your web vision to life! Feel free to reach
+              out for frontend development that goes beyond expectations.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('Skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                experience
+              </p>
+              <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="Skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Webapp interfaces</li>
+                <li>
+                  <span>Web Development</span><br />
+                  Web app interfaces
+                </li>
+                <li>
+                  <span>App Development</span><br />Building Android/IOS apps
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2021 - current</span><br />UI/UX Design training at the
+                  Institute
+                </li>
+                <li>
+                  <span>2019 - 2021</span><br />
+                  software Engineer at Patricia
+                </li>
+                <li>
+                  <span>2017 - 2019</span><br />software dev intern at Patricia
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+              <ul>
+                <li>
+                  <span>2016</span><br />UI/UX Design training at the Zuri Team
+                </li>
+                <li>
+                  <span>2015</span><br />
+                  B.Eng at FUTO
+                </li>
+                <li><span>2015</span><br />JavaScript training at davy.io</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!---------------------------services--------------------------->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>UI/UX Design</h2>
+            <p>I am going to write something here later</p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>Web Design</h2>
+            <p>I am going to write something here later</p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>App Design</h2>
+            <p>I am going to write something here later</p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--------------------------------PORTFOLIO--------------->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png" />
+            <div class="layer">
+              <h3>SOcial Media App</h3>
+              <p>i will also change this later hhriufgyufgyrgafhchsshvfuksy</p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png" />
+            <div class="layer">
+              <h3>Music App</h3>
+              <p>
+                i will also change this late
+                rhgitaruygiyawireytgiae6ywtgis6etg6aetgi6er
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" />
+            <div class="layer">
+              <h3>Online Shopping App</h3>
+              <p>
+                i will also change this later
+                hiloiuyguyarfoqyerfqa6rfoae68wytre6tgrawykugyriyfuguyargifyugyugfyu
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">see More</a>
+      </div>
+    </div>
+    <!-------------------------------------------------contact------------------------------>
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i>okanuchinonso1@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i>+2349157084446</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/profile.php?id=100088243811078"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://twitter.com/home"
+                ><i class="fa-brands fa-twitter-square"></i
+              ></a>
+              <a href="https://www.instagram.com/okanuchinonso/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/okanu-chinonso-34b203197/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+            <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="your email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>
+            copyright Ⓒ Chinonso. Made with<i class="fa-solid fa-heart"></i> by
+            Okanu Chinonso
+          </p>
+        </div>
+      </div>
+    </div>
+    <script>
+      var tabLinks = document.getElementsByClassName("tab-links");
+      var tabContents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabName) {
+        for (tabLink of tabLinks) {
+          tabLink.classList.remove("active-link");
+        }
+        for (tabContent of tabContents) {
+          tabContent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabName).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openMenu() {
+        sidemenu.style.right = "0 ";
+      }
+      function closeMenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbyGAqjgX-2n330UFMDHeL5yf9GkZwORmzyPx0UsEGGWH3FZ9iBkX0BIy4W57bpQL1zo/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+              msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
